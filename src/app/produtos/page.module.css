@@ -1,0 +1,39 @@
+.tbl {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.tbl td, .tbl th {
+    border: 2px solid black;
+    padding: 2px;
+    transition: .5s;
+}
+
+.divTitulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.divTitulo input {
+    font-size: 30px;
+}
+
+.modal {
+    width: 100vw;
+    height: 100vh;
+    background-color: #ddddddce;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.Ps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
