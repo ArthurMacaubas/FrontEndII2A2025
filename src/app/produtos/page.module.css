@@ -2,6 +2,7 @@
     border-collapse: collapse;
     margin: auto;
 }
+<<<<<<< HEAD
 
 .tbl td, .tbl th {
     border: 2px solid black;
@@ -37,3 +38,9 @@
     padding-top: 20px;
 }
 
+=======
+.tbl td, .tbl th {
+    border: 2px solid black;
+    padding: 2px;
+}
+>>>>>>> 24b6429613ba494b3ccb00e5ba27b15b44aef887
