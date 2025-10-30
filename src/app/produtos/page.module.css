@@ -10,17 +10,17 @@
     padding: 2px;
 }
 
-/* 🔹 Cor para linhas ímpares */
+
 .tbl tbody tr:nth-child(odd) {
     background-color: #f9f9f9;
 }
 
-/* 🔸 Cor para linhas pares */
+
 .tbl tbody tr:nth-child(even) {
     background-color: #e0f7fa;
 }
 
-/* Quando passar o mouse */
+
 .tbl tr:hover {
     background-color: #c8e6c9;
     cursor: pointer;
