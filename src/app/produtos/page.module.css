@@ -1,13 +1,29 @@
 .tbl {
     border-collapse: collapse;
     margin: auto;
+    font-size: 2em;
 }
-<<<<<<< HEAD
 
-.tbl td, .tbl th {
+.tbl td,
+.tbl th {
     border: 2px solid black;
     padding: 2px;
-    transition: .5s;
+}
+
+/* 🔹 Cor para linhas ímpares */
+.tbl tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+/* 🔸 Cor para linhas pares */
+.tbl tbody tr:nth-child(even) {
+    background-color: #e0f7fa;
+}
+
+/* Quando passar o mouse */
+.tbl tr:hover {
+    background-color: #c8e6c9;
+    cursor: pointer;
 }
 
 .divTitulo {
@@ -15,6 +31,7 @@
     flex-direction: column;
     align-items: center;
     padding-bottom: 20px;
+    font-size: 2em;
 }
 
 .divTitulo input {
@@ -25,22 +42,10 @@
     width: 100vw;
     height: 100vh;
     background-color: #ddddddce;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
-    z-index: 100;
-}
-
-.Ps {
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    padding-top: 20px;
+    justify-content: center;
+    display: flex;
 }
-
-=======
-.tbl td, .tbl th {
-    border: 2px solid black;
-    padding: 2px;
-}
->>>>>>> 24b6429613ba494b3ccb00e5ba27b15b44aef887
