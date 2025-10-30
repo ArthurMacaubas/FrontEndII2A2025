@@ -21,7 +21,7 @@
 }
 
 
-.tbl tr:hover {
+.tbl tbody tr:hover {
     background-color: #c8e6c9;
     cursor: pointer;
 }
