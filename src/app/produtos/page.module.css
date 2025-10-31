@@ -17,12 +17,12 @@
 
 
 .tbl tbody tr:nth-child(even) {
-    background-color: #e0f7fa;
+    background-color: #caf4fa;
 }
 
 
 .tbl tbody tr:hover {
-    background-color: #c8e6c9;
+    background-color: #89d3d8;
     cursor: pointer;
 }
 
@@ -41,7 +41,7 @@
 .modal {
     width: 100vw;
     height: 100vh;
-    background-color: #ddddddce;
+    background-color: #e2e2e2ce;
     position: fixed;
     top: 0;
     left: 0;

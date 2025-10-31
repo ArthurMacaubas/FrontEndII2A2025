@@ -79,6 +79,7 @@ export default function Header() {
                             <ul className={styles.ulSubMenu}>
                                 <li className={styles.liSubMenu}><Link className={styles.link} href='/produtos'>Cadastrar</Link></li>
                                 <li className={styles.liSubMenu}><Link className={styles.link} href='/produtos'>Pesquisar</Link></li>
+                                <li className={styles.liSubMenu}><Link className={styles.link} href='/localidades'>Localidades</Link></li>
                             </ul>
 
                         </li>
